@@ -249,7 +249,7 @@ void InitBuzzer(){
 // <<<<<<<<=========WS2812. (RGB LED)========>>>>>>>>>>
 #include <Adafruit_NeoPixel.h>
 #define NUMPIXELS   6
-#define BRIGHTNESS  255
+#define BRIGHTNESS  200
 Adafruit_NeoPixel matrix = Adafruit_NeoPixel(NUMPIXELS, RGB_LED, NEO_GRB + NEO_KHZ800);
 
 void InitRGB(){
